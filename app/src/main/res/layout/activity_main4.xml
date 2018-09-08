@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:id="@+id/act1"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/act2"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/act1" />
+
+    <TextView
+        android:id="@+id/act3"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/act2" />
+
+    <TextView
+        android:id="@+id/act4"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/act3" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="119dp"
+        android:text="Main Menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/act4" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="16dp"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu" />
+</android.support.constraint.ConstraintLayout>

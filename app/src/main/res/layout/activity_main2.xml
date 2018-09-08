@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/walking"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Walking"
+        app:layout_constraintBottom_toTopOf="@+id/evolve"
+        app:layout_constraintEnd_toStartOf="@+id/boosted"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boosted"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:text="Boosted Mini S Board"
+        app:layout_constraintBottom_toTopOf="@+id/segway"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/walking"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/segway"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="201dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="2dp"
+        android:text="Segway i2 SE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/evolve"
+        app:layout_constraintTop_toBottomOf="@+id/boosted" />
+
+    <Button
+        android:id="@+id/evolve"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="201dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginStart="16dp"
+        android:text="Evolve Skateboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/segway"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/walking" />
+
+    <Button
+        android:id="@+id/hoverboard"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="193dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="193dp"
+        android:layout_marginStart="16dp"
+        android:text="Hovertrax Hoverboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/evolve" />
+</android.support.constraint.ConstraintLayout>
